@@ -4,10 +4,10 @@
 
 All you need for this is a browser and a text editor. I recommend [Sublime Text](http://www.sublimetext.com/), but you can use whatever you're comfortable with.
 
-If you know `git`, then clone this repository. If not, Github lets you download the files as a zip.  
+If you know `git`, then clone this repository. If not, Github lets you download the files as a zip.
 You'll get this instructions file, the `index.html` file, a `js` directory which contains `app.js` and a `css` directory which contains `style.css`
 
-`index.html` contains the boilerplate to pull in the Javascript file and the CSS style, to get you started. It also pulls in all libraries needed for the tasks (jQuery, jQuery UI) from Google's CDN.
+`index.html` contains the boilerplate to pull in the Javascript file and the CSS style, to get you started. It also pulls in all libraries needed for the tasks (jQuery, jQuery UI) from the jQuery website.
 
 ---
 
@@ -26,7 +26,7 @@ You'll get this instructions file, the `index.html` file, a `js` directory which
 
 ### Task 2
 
-- HTML has `data-` attributes, which allows you to store data against an element eg. 
+- HTML has `data-` attributes, which allows you to store data against an element eg.
 ```
 <img src="image_of_jake.png" data-name="Jake" data-age="30" data-gender="male" />
 ```
