@@ -18,4 +18,13 @@ $(document).ready(function() {
     // Use jQuery UI
     $("ul").sortable().disableSelection();
 
+    // Reset the order when the reset button is clicked
+    $(".reset").click(function() {
+        $.each(list_of_characters, function(index, character) {
+            var destination = $("ul").children().eq(index),
+                source = $("." + character.parent_class);
+            source.insertBefore(destination);
+        });
+    });
+
 });
