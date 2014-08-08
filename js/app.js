@@ -53,7 +53,11 @@ $(document).ready(function() {
         }
     ];
 
-    console.log(list_of_characters);
+    // Create the list on the page using the data above
+    $("body").append("<ul />");
+    $.each(list_of_characters, function(index, character) {
+        $("ul").append('<li class="'+character.parent_class+'"><img src="'+character.source+'" data-name="'+character.name+'" data-age="'+character.age+'" data-gender="'+character.gender+'" /></li>');
+    });
 
     // Use jQuery UI
     $("ul").sortable().disableSelection();
