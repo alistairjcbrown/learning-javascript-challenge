@@ -15,4 +15,7 @@ $(document).ready(function() {
 
     console.log(list_of_characters);
 
+    // Use jQuery UI
+    $("ul").sortable().disableSelection();
+
 });
