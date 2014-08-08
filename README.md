@@ -61,7 +61,7 @@ You'll get this instructions file, the `index.html` file, a `js` directory which
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-### Task 4
+### Task 5
 
 - We're going to use another library called jQuery UI, which provides all sorts of user interface widgets and is built on top of jQuery    .
   - Using jQuery UI, make it so that I can drag and drop the images to reorder them
@@ -69,7 +69,7 @@ You'll get this instructions file, the `index.html` file, a `js` directory which
 - Useful resources:
   - http://jqueryui.com/sortable/
 
-### Task 5
+### Task 6
 
 - Lets make use of the array you created in _Task 3_. Add in a button to `index.html` and call it "reset".
    - When the button is clicked, put the images back in their original order, which you'll have recorded in your array.
@@ -78,7 +78,7 @@ You'll get this instructions file, the `index.html` file, a `js` directory which
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
   - http://api.jquery.com/click/
 
-### Task 6
+### Task 7
 
 - In _Task 1_ you manually created the HTML and pulled out the data in _Task 3_ to programatically create an array containing data.
 - Now, we want to make this data driven and instead, manually create the array and programatically create the HTML.
