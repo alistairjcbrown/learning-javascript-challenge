@@ -9,6 +9,8 @@ You'll get this instructions file, the `index.html` file, a `js` directory which
 
 `index.html` contains the boilerplate to pull in the Javascript file and the CSS style, to get you started. It also pulls in all libraries needed for the tasks (jQuery, jQuery UI) from the jQuery website.
 
+For a gentle introduction into Javascript, [JavaScript For Cats](http://jsforcats.com/) might be a good resource to read before you start.
+
 ---
 
 ## Tasks
